@@ -8,10 +8,10 @@ const container = document.querySelector('.slider-container')
 let activeSlideIndex = 0
 
 sidebar.style.top = `-${(slidesCount - 1) * 100}vh`
-
+ 
 upBtn.addEventListener('click', () => {
     changeSlide('up')
-})
+}) 
 
 downBtn.addEventListener('click', () => {
     changeSlide('down')

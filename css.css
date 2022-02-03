@@ -252,7 +252,7 @@ opacity: 1;
 
   transform: translate3d(-50%, -50%, 0); /*1 Способ выравнивания изображения по оси X и Y*/
 }
-
+ 
 .works__content{
   display: flex;
   flex-direction: column; /*Контент внутри идет в колонну*/

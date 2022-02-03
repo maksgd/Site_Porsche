@@ -6,7 +6,7 @@ for (const slide of slides) {
 
         slide.classList.add('active') // Добавление класса active объекту при клике
     })
-}
+}  
 
 function clearActiveClasses() {
     slides.forEach((slide) => {
